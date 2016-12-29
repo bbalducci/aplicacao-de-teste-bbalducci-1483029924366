@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-bbalducci
+  host: aplicacao-de-teste-bbalducci
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-bbalducci-AdvancedMobileAccess
+  - aplicacao-de-teste-bbalducci-imfpush
+  - aplicacao-de-teste-bbalducci-cloudantNoSQLDB
